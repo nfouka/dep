@@ -1,0 +1,675 @@
+# Logfile created on 2018-08-04 15:16:26 +0200 by logger.rb/v1.2.7
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:16:26 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:20:37 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:21:21 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [857f3cd2] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [857f3cd2] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:22:15 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [35f8d022] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [35f8d022] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:24:57 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a11503ed] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [a11503ed] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:31:46 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9f6add96] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [9f6add96] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8850816a] Finished in 0.182 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-demo-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-demo-production-nadir.sh 100.0%
+  INFO [dda7708d] Running /usr/bin/env chmod 700 /tmp/git-ssh-demo-production-nadir.sh as nadir@localhost
+ DEBUG [dda7708d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-demo-production-nadir.sh
+  INFO [b51b21d2] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [95f5653b] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [95f5653b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-demo-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [028c259e] 	Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+ DEBUG [028c259e] 	Permission denied (publickey).
+ DEBUG [028c259e] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:33:32 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5d82aae9] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [5d82aae9] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4bcc751a] Finished in 0.372 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-demo-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-demo-production-nadir.sh 100.0%
+  INFO [6ea904e0] Running /usr/bin/env chmod 700 /tmp/git-ssh-demo-production-nadir.sh as nadir@localhost
+ DEBUG [6ea904e0] Command: /usr/bin/env chmod 700 /tmp/git-ssh-demo-production-nadir.sh
+  INFO [99ce7694] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [e148c41e] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [e148c41e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-demo-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [853dec79] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [853dec79] Finished in 2.187 seconds with exit status 0 (successful).
+  INFO [2cd214c8] Running /usr/bin/env mkdir -p /var/www/demo/shared /var/www/demo/releases as nadir@localhost
+ DEBUG [2cd214c8] Command: /usr/bin/env mkdir -p /var/www/demo/shared /var/www/demo/releases
+ DEBUG [d9cdcf4f] 	mkdir: impossible de créer le répertoire «/var/www/demo»
+ DEBUG [d9cdcf4f] 	: Permission non accordée
+mkdir: impossible de créer le répertoire «/var/www/demo»: Permission non accordée
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:36:44 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ec889011] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [ec889011] Command: /usr/bin/env mkdir -p /tmp
+  INFO [26349a12] Finished in 0.185 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap-production-nadir.sh 100.0%
+  INFO [36c078ab] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap-production-nadir.sh as nadir@localhost
+ DEBUG [36c078ab] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap-production-nadir.sh
+  INFO [5bbf0743] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [d957864e] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [d957864e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:37:59 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bcd16d3a] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [bcd16d3a] Command: /usr/bin/env mkdir -p /tmp
+  INFO [90b2cb1a] Finished in 0.187 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap-production-nadir.sh 100.0%
+  INFO [d33a76a4] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap-production-nadir.sh as nadir@localhost
+ DEBUG [d33a76a4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap-production-nadir.sh
+  INFO [9b3b245b] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [6854de15] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [6854de15] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [cba2d4a7] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [cba2d4a7] Finished in 2.834 seconds with exit status 0 (successful).
+  INFO [89c8799e] Running /usr/bin/env mkdir -p /var/www/cap/shared /var/www/cap/releases as nadir@localhost
+ DEBUG [89c8799e] Command: /usr/bin/env mkdir -p /var/www/cap/shared /var/www/cap/releases
+ DEBUG [1a74d657] 	mkdir: impossible de créer le répertoire «/var/www/cap»
+ DEBUG [1a74d657] 	: Permission non accordée
+ DEBUG [1a74d657] 	mkdir: impossible de créer le répertoire «/var/www/cap»: Permission non accordée
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:39:53 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9ba61b86] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [9ba61b86] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9447d443] Finished in 0.178 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-dep-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-dep-production-nadir.sh 100.0%
+  INFO [926ea1a4] Running /usr/bin/env chmod 700 /tmp/git-ssh-dep-production-nadir.sh as nadir@localhost
+ DEBUG [926ea1a4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-dep-production-nadir.sh
+  INFO [5732f21b] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [20ac5f88] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [20ac5f88] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-dep-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:41:11 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a2262424] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [a2262424] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d28c2c99] Finished in 0.182 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-dep-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-dep-production-nadir.sh 100.0%
+  INFO [8a053415] Running /usr/bin/env chmod 700 /tmp/git-ssh-dep-production-nadir.sh as nadir@localhost
+ DEBUG [8a053415] Command: /usr/bin/env chmod 700 /tmp/git-ssh-dep-production-nadir.sh
+  INFO [c0edd00b] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [7a8b446e] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [7a8b446e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-dep-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [038d8ed2] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [038d8ed2] Finished in 2.550 seconds with exit status 0 (successful).
+  INFO [ffe93d95] Running /usr/bin/env mkdir -p /var/www/dep/shared /var/www/dep/releases as nadir@localhost
+ DEBUG [ffe93d95] Command: /usr/bin/env mkdir -p /var/www/dep/shared /var/www/dep/releases
+  INFO [89c58f5c] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [9a4ea772] Running /usr/bin/env mkdir -p /var/www/dep/shared/app/logs as nadir@localhost
+ DEBUG [9a4ea772] Command: /usr/bin/env mkdir -p /var/www/dep/shared/app/logs
+  INFO [4725157b] Finished in 0.046 seconds with exit status 0 (successful).
+ DEBUG [511177a2] Running [ -f /var/www/dep/current/REVISION ] as nadir@localhost
+ DEBUG [511177a2] Command: [ -f /var/www/dep/current/REVISION ]
+ DEBUG [453df42f] Finished in 0.046 seconds with exit status 1 (failed).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:45:59 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [842c985d] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [842c985d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1dd72703] Finished in 0.185 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-dep-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-dep-production-nadir.sh 100.0%
+  INFO [98873231] Running /usr/bin/env chmod 700 /tmp/git-ssh-dep-production-nadir.sh as nadir@localhost
+ DEBUG [98873231] Command: /usr/bin/env chmod 700 /tmp/git-ssh-dep-production-nadir.sh
+  INFO [f86b3940] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [6d638b7c] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [6d638b7c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-dep-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [5b3d76f3] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [5b3d76f3] Finished in 2.530 seconds with exit status 0 (successful).
+  INFO [185f8a4b] Running /usr/bin/env mkdir -p /var/www/dep/shared /var/www/dep/releases as nadir@localhost
+ DEBUG [185f8a4b] Command: /usr/bin/env mkdir -p /var/www/dep/shared /var/www/dep/releases
+  INFO [a5c31d69] Finished in 0.042 seconds with exit status 0 (successful).
+  INFO [b9d1f257] Running /usr/bin/env mkdir -p /var/www/dep/shared/app/logs as nadir@localhost
+ DEBUG [b9d1f257] Command: /usr/bin/env mkdir -p /var/www/dep/shared/app/logs
+  INFO [6e21955f] Finished in 0.047 seconds with exit status 0 (successful).
+ DEBUG [2a81d84f] Running [ -f /var/www/dep/current/REVISION ] as nadir@localhost
+ DEBUG [2a81d84f] Command: [ -f /var/www/dep/current/REVISION ]
+ DEBUG [a535917d] Finished in 0.046 seconds with exit status 1 (failed).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:51:41 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [be35ceb3] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [be35ceb3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bfab6c37] Finished in 0.186 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-dep-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-dep-production-nadir.sh 100.0%
+  INFO [830c3338] Running /usr/bin/env chmod 700 /tmp/git-ssh-dep-production-nadir.sh as nadir@localhost
+ DEBUG [830c3338] Command: /usr/bin/env chmod 700 /tmp/git-ssh-dep-production-nadir.sh
+  INFO [d9c3bffc] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [b1bd8b1d] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [b1bd8b1d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-dep-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [dd9adb53] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [dd9adb53] Finished in 2.751 seconds with exit status 0 (successful).
+  INFO [2998912f] Running /usr/bin/env mkdir -p /var/www/dep/shared /var/www/dep/releases as nadir@localhost
+ DEBUG [2998912f] Command: /usr/bin/env mkdir -p /var/www/dep/shared /var/www/dep/releases
+  INFO [d1cbcbf9] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [026440a9] Running /usr/bin/env mkdir -p /var/www/dep/shared/app/logs as nadir@localhost
+ DEBUG [026440a9] Command: /usr/bin/env mkdir -p /var/www/dep/shared/app/logs
+  INFO [f4ec725c] Finished in 0.050 seconds with exit status 0 (successful).
+ DEBUG [5daf70bf] Running [ -f /var/www/dep/current/REVISION ] as nadir@localhost
+ DEBUG [5daf70bf] Command: [ -f /var/www/dep/current/REVISION ]
+ DEBUG [8ded92ba] Finished in 0.046 seconds with exit status 1 (failed).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:54:44 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [413a460b] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [413a460b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b2b5b71d] Finished in 0.187 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-dep-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-dep-production-nadir.sh 100.0%
+  INFO [ea1d04ab] Running /usr/bin/env chmod 700 /tmp/git-ssh-dep-production-nadir.sh as nadir@localhost
+ DEBUG [ea1d04ab] Command: /usr/bin/env chmod 700 /tmp/git-ssh-dep-production-nadir.sh
+  INFO [8333f551] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO [cf78e2bc] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [cf78e2bc] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-dep-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [c8c9e8b2] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [c8c9e8b2] Finished in 2.554 seconds with exit status 0 (successful).
+  INFO [65b66396] Running /usr/bin/env mkdir -p /var/www/dep/shared /var/www/dep/releases as nadir@localhost
+ DEBUG [65b66396] Command: /usr/bin/env mkdir -p /var/www/dep/shared /var/www/dep/releases
+  INFO [3e25e2ca] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [c1d0aadb] Running /usr/bin/env mkdir -p /var/www/dep/shared/app/logs as nadir@localhost
+ DEBUG [c1d0aadb] Command: /usr/bin/env mkdir -p /var/www/dep/shared/app/logs
+  INFO [9143b3f4] Finished in 0.045 seconds with exit status 0 (successful).
+ DEBUG [4c87188d] Running [ -f /var/www/dep/current/REVISION ] as nadir@localhost
+ DEBUG [4c87188d] Command: [ -f /var/www/dep/current/REVISION ]
+ DEBUG [04964fa1] Finished in 0.046 seconds with exit status 1 (failed).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 15:58:30 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 16:01:14 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 16:01:44 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [36939cb0] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [36939cb0] Command: /usr/bin/env mkdir -p /tmp
+  INFO [cc12d6d6] Finished in 0.172 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 100.0%
+  INFO [3a6ef2cd] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh as nadir@localhost
+ DEBUG [3a6ef2cd] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh
+  INFO [6ade87b3] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [90f83220] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [90f83220] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [47c13898] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [47c13898] Finished in 2.400 seconds with exit status 0 (successful).
+  INFO [2d9c3b68] Running /usr/bin/env mkdir -p /var/www/my_app_name/shared /var/www/my_app_name/releases as nadir@localhost
+ DEBUG [2d9c3b68] Command: /usr/bin/env mkdir -p /var/www/my_app_name/shared /var/www/my_app_name/releases
+  INFO [21636641] Finished in 0.046 seconds with exit status 0 (successful).
+ DEBUG [17065cc3] Running [ -f /var/www/my_app_name/current/REVISION ] as nadir@localhost
+ DEBUG [17065cc3] Command: [ -f /var/www/my_app_name/current/REVISION ]
+ DEBUG [b77d461f] Finished in 0.046 seconds with exit status 1 (failed).
+ DEBUG [7395be81] Running [ -f /var/www/my_app_name/repo/HEAD ] as nadir@localhost
+ DEBUG [7395be81] Command: [ -f /var/www/my_app_name/repo/HEAD ]
+ DEBUG [f140ac34] Finished in 0.048 seconds with exit status 1 (failed).
+ DEBUG [128272ec] Running if test ! -d /var/www/my_app_name; then echo "Directory does not exist '/var/www/my_app_name'" 1>&2; false; fi as nadir@localhost
+ DEBUG [128272ec] Command: if test ! -d /var/www/my_app_name; then echo "Directory does not exist '/var/www/my_app_name'" 1>&2; false; fi
+ DEBUG [e78b8c76] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [3866a7b5] Running /usr/bin/env git clone --mirror git@github.com:nfouka/dep.git /var/www/my_app_name/repo as nadir@localhost
+ DEBUG [3866a7b5] Command: cd /var/www/my_app_name && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git clone --mirror git@github.com:nfouka/dep.git /var/www/my_app_name/repo )
+ DEBUG [0efa545f] 	Clonage dans le dépôt nu '/var/www/my_app_name/repo'
+  INFO [0efa545f] Finished in 10.357 seconds with exit status 0 (successful).
+ DEBUG [ed96b171] Running if test ! -d /var/www/my_app_name/repo; then echo "Directory does not exist '/var/www/my_app_name/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [ed96b171] Command: if test ! -d /var/www/my_app_name/repo; then echo "Directory does not exist '/var/www/my_app_name/repo'" 1>&2; false; fi
+ DEBUG [2cea5c68] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [43eda047] Running /usr/bin/env git remote set-url origin git@github.com:nfouka/dep.git as nadir@localhost
+ DEBUG [43eda047] Command: cd /var/www/my_app_name/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git remote set-url origin git@github.com:nfouka/dep.git )
+  INFO [d75bf2e1] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [c9db5370] Running /usr/bin/env git remote update --prune as nadir@localhost
+ DEBUG [c9db5370] Command: cd /var/www/my_app_name/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [fa0456db] 	Récupération de origin
+  INFO [fa0456db] Finished in 2.571 seconds with exit status 0 (successful).
+ DEBUG [14672c4b] Running if test ! -d /var/www/my_app_name/repo; then echo "Directory does not exist '/var/www/my_app_name/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [14672c4b] Command: if test ! -d /var/www/my_app_name/repo; then echo "Directory does not exist '/var/www/my_app_name/repo'" 1>&2; false; fi
+ DEBUG [d4ba1ea8] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [cca2754b] Running /usr/bin/env mkdir -p /var/www/my_app_name/releases/20180804140147 as nadir@localhost
+ DEBUG [cca2754b] Command: cd /var/www/my_app_name/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env mkdir -p /var/www/my_app_name/releases/20180804140147 )
+  INFO [35b31c52] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [2c67d780] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/my_app_name/releases/20180804140147 as nadir@localhost
+ DEBUG [2c67d780] Command: cd /var/www/my_app_name/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/my_app_name/releases/20180804140147 )
+  INFO [9ab1fb83] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [affa3372] Running if test ! -d /var/www/my_app_name/repo; then echo "Directory does not exist '/var/www/my_app_name/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [affa3372] Command: if test ! -d /var/www/my_app_name/repo; then echo "Directory does not exist '/var/www/my_app_name/repo'" 1>&2; false; fi
+ DEBUG [dc594400] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [e478326d] Running /usr/bin/env git rev-list --max-count=1 master as nadir@localhost
+ DEBUG [e478326d] Command: cd /var/www/my_app_name/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [22064136] 	7a6fa823596869b6890ef53fa07e954eed22b9c0
+ DEBUG [22064136] Finished in 0.054 seconds with exit status 0 (successful).
+ DEBUG [d727e4aa] Running if test ! -d /var/www/my_app_name/releases/20180804140147; then echo "Directory does not exist '/var/www/my_app_name/releases/20180804140147'" 1>&2; false; fi as nadir@localhost
+ DEBUG [d727e4aa] Command: if test ! -d /var/www/my_app_name/releases/20180804140147; then echo "Directory does not exist '/var/www/my_app_name/releases/20180804140147'" 1>&2; false; fi
+ DEBUG [8702a6c2] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [0d51278f] Running /usr/bin/env echo "7a6fa823596869b6890ef53fa07e954eed22b9c0" > REVISION as nadir@localhost
+ DEBUG [0d51278f] Command: cd /var/www/my_app_name/releases/20180804140147 && /usr/bin/env echo "7a6fa823596869b6890ef53fa07e954eed22b9c0" > REVISION
+  INFO [a7d192ef] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [67424c29] Running /usr/bin/env ln -s /var/www/my_app_name/releases/20180804140147 /var/www/my_app_name/releases/current as nadir@localhost
+ DEBUG [67424c29] Command: /usr/bin/env ln -s /var/www/my_app_name/releases/20180804140147 /var/www/my_app_name/releases/current
+  INFO [72236256] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [5834b4f8] Running /usr/bin/env mv /var/www/my_app_name/releases/current /var/www/my_app_name as nadir@localhost
+ DEBUG [5834b4f8] Command: /usr/bin/env mv /var/www/my_app_name/releases/current /var/www/my_app_name
+  INFO [c39eea63] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [7dc9aa53] Running /usr/bin/env ls -x /var/www/my_app_name/releases as nadir@localhost
+ DEBUG [7dc9aa53] Command: /usr/bin/env ls -x /var/www/my_app_name/releases
+ DEBUG [e8f0679d] 	20180804140147
+ DEBUG [e8f0679d] Finished in 0.047 seconds with exit status 0 (successful).
+ DEBUG [298a863b] Running if test ! -d /var/www/my_app_name/releases; then echo "Directory does not exist '/var/www/my_app_name/releases'" 1>&2; false; fi as nadir@localhost
+ DEBUG [298a863b] Command: if test ! -d /var/www/my_app_name/releases; then echo "Directory does not exist '/var/www/my_app_name/releases'" 1>&2; false; fi
+ DEBUG [14e4ad98] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [d5f3f747] Running /usr/bin/env echo "Branch master (at 7a6fa823596869b6890ef53fa07e954eed22b9c0) deployed as release 20180804140147 by nadir" >> /var/www/my_app_name/revisions.log as nadir@localhost
+ DEBUG [d5f3f747] Command: cd /var/www/my_app_name/releases && /usr/bin/env echo "Branch master (at 7a6fa823596869b6890ef53fa07e954eed22b9c0) deployed as release 20180804140147 by nadir" >> /var/www/my_app_name/revisions.log
+  INFO [9f64f963] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 16:03:20 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4c809135] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [4c809135] Command: /usr/bin/env mkdir -p /tmp
+  INFO [717c02f4] Finished in 0.186 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 100.0%
+  INFO [83e5bf05] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh as nadir@localhost
+ DEBUG [83e5bf05] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh
+  INFO [37178b89] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [b4d24558] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [b4d24558] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [a6d75e32] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [a6d75e32] Finished in 2.411 seconds with exit status 0 (successful).
+  INFO [e329af10] Running /usr/bin/env mkdir -p /var/www/html/my_app_name/shared /var/www/html/my_app_name/releases as nadir@localhost
+ DEBUG [e329af10] Command: /usr/bin/env mkdir -p /var/www/html/my_app_name/shared /var/www/html/my_app_name/releases
+  INFO [590a22a1] Finished in 0.042 seconds with exit status 0 (successful).
+ DEBUG [968b5316] Running [ -f /var/www/html/my_app_name/current/REVISION ] as nadir@localhost
+ DEBUG [968b5316] Command: [ -f /var/www/html/my_app_name/current/REVISION ]
+ DEBUG [1315e47a] Finished in 0.044 seconds with exit status 1 (failed).
+ DEBUG [ca8534c3] Running [ -f /var/www/html/my_app_name/repo/HEAD ] as nadir@localhost
+ DEBUG [ca8534c3] Command: [ -f /var/www/html/my_app_name/repo/HEAD ]
+ DEBUG [cf964a33] Finished in 0.049 seconds with exit status 1 (failed).
+ DEBUG [cf1e3b8f] Running if test ! -d /var/www/html/my_app_name; then echo "Directory does not exist '/var/www/html/my_app_name'" 1>&2; false; fi as nadir@localhost
+ DEBUG [cf1e3b8f] Command: if test ! -d /var/www/html/my_app_name; then echo "Directory does not exist '/var/www/html/my_app_name'" 1>&2; false; fi
+ DEBUG [94675fa5] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [62161f4a] Running /usr/bin/env git clone --mirror git@github.com:nfouka/dep.git /var/www/html/my_app_name/repo as nadir@localhost
+ DEBUG [62161f4a] Command: cd /var/www/html/my_app_name && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git clone --mirror git@github.com:nfouka/dep.git /var/www/html/my_app_name/repo )
+ DEBUG [ca15aa43] 	Clonage dans le dépôt nu '/var/www/html/my_app_name/repo'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 16:10:15 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6c353f39] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [6c353f39] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d48b0097] Finished in 0.178 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 100.0%
+  INFO [8ededbae] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh as nadir@localhost
+ DEBUG [8ededbae] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh
+  INFO [5a9612a9] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [0a334a60] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [0a334a60] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [8001976e] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [8001976e] Finished in 2.559 seconds with exit status 0 (successful).
+  INFO [ae8c33db] Running /usr/bin/env mkdir -p /var/www/html/my_app_name/shared /var/www/html/my_app_name/releases as nadir@localhost
+ DEBUG [ae8c33db] Command: /usr/bin/env mkdir -p /var/www/html/my_app_name/shared /var/www/html/my_app_name/releases
+  INFO [f68c66f3] Finished in 0.048 seconds with exit status 0 (successful).
+ DEBUG [93150c5e] Running [ -f /var/www/html/my_app_name/current/REVISION ] as nadir@localhost
+ DEBUG [93150c5e] Command: [ -f /var/www/html/my_app_name/current/REVISION ]
+ DEBUG [6052162b] Finished in 0.047 seconds with exit status 1 (failed).
+ DEBUG [97b03824] Running [ -f /var/www/html/my_app_name/repo/HEAD ] as nadir@localhost
+ DEBUG [97b03824] Command: [ -f /var/www/html/my_app_name/repo/HEAD ]
+ DEBUG [243f7851] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/html/my_app_name/repo
+ DEBUG [0ec0c1e5] Running if test ! -d /var/www/html/my_app_name/repo; then echo "Directory does not exist '/var/www/html/my_app_name/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [0ec0c1e5] Command: if test ! -d /var/www/html/my_app_name/repo; then echo "Directory does not exist '/var/www/html/my_app_name/repo'" 1>&2; false; fi
+ DEBUG [6e3ab1ec] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [5b2c97d2] Running /usr/bin/env git remote set-url origin git@github.com:nfouka/dep.git as nadir@localhost
+ DEBUG [5b2c97d2] Command: cd /var/www/html/my_app_name/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git remote set-url origin git@github.com:nfouka/dep.git )
+  INFO [22f12e8d] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [0403aecc] Running /usr/bin/env git remote update --prune as nadir@localhost
+ DEBUG [0403aecc] Command: cd /var/www/html/my_app_name/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e04a5553] 	Récupération de origin
+ DEBUG [e04a5553] 	Depuis github.com:nfouka/dep
+ * branch            HEAD       -> FETCH_HEAD
+  INFO [e04a5553] Finished in 8.786 seconds with exit status 0 (successful).
+ DEBUG [2dcb6b3f] Running if test ! -d /var/www/html/my_app_name/repo; then echo "Directory does not exist '/var/www/html/my_app_name/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [2dcb6b3f] Command: if test ! -d /var/www/html/my_app_name/repo; then echo "Directory does not exist '/var/www/html/my_app_name/repo'" 1>&2; false; fi
+ DEBUG [9967566c] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [2b42039b] Running /usr/bin/env mkdir -p /var/www/html/my_app_name/releases/20180804141018 as nadir@localhost
+ DEBUG [2b42039b] Command: cd /var/www/html/my_app_name/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env mkdir -p /var/www/html/my_app_name/releases/20180804141018 )
+  INFO [208f83cb] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [013363c0] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/my_app_name/releases/20180804141018 as nadir@localhost
+ DEBUG [013363c0] Command: cd /var/www/html/my_app_name/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/my_app_name/releases/20180804141018 )
+ DEBUG [35d8b3eb] 	fatal: Not a valid object name
+ DEBUG [35d8b3eb] 	tar: Ceci ne ressemble pas à une archive de type « tar »
+tar: Arrêt avec code d'échec à cause des erreurs précédentes
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 16:13:00 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5b719f59] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [5b719f59] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b34d3893] Finished in 0.179 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 100.0%
+  INFO [f9e45c9a] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh as nadir@localhost
+ DEBUG [f9e45c9a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh
+  INFO [b1fb3498] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [73274e39] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [73274e39] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [92fd9654] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [92fd9654] Finished in 4.092 seconds with exit status 0 (successful).
+  INFO [f7c7dd9b] Running /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases as nadir@localhost
+ DEBUG [f7c7dd9b] Command: /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases
+  INFO [84d503d7] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [f447328d] Running /usr/bin/env mkdir -p /var/www/html/shared/app/logs as nadir@localhost
+ DEBUG [f447328d] Command: /usr/bin/env mkdir -p /var/www/html/shared/app/logs
+  INFO [90022fb8] Finished in 0.045 seconds with exit status 0 (successful).
+ DEBUG [4d570382] Running [ -f /var/www/html/current/REVISION ] as nadir@localhost
+ DEBUG [4d570382] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [ce8bb08f] Finished in 0.048 seconds with exit status 1 (failed).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 16:16:51 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0f81d009] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [0f81d009] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3142e599] Finished in 0.184 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 100.0%
+  INFO [83bf09ff] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh as nadir@localhost
+ DEBUG [83bf09ff] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh
+  INFO [465dc8ba] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [878a67bb] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [878a67bb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [af362f9f] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [af362f9f] Finished in 2.489 seconds with exit status 0 (successful).
+  INFO [a8b19829] Running /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases as nadir@localhost
+ DEBUG [a8b19829] Command: /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases
+  INFO [df92911e] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [ebe66fc9] Running /usr/bin/env mkdir -p /var/www/html/shared/app/logs as nadir@localhost
+ DEBUG [ebe66fc9] Command: /usr/bin/env mkdir -p /var/www/html/shared/app/logs
+  INFO [d5c5a4cc] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [4da09484] Running [ -f /var/www/html/current/REVISION ] as nadir@localhost
+ DEBUG [4da09484] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [10d6a23e] Finished in 0.047 seconds with exit status 1 (failed).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 16:17:23 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0e05ce2f] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [0e05ce2f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [dfc3b75b] Finished in 0.183 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 100.0%
+  INFO [474650af] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh as nadir@localhost
+ DEBUG [474650af] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh
+  INFO [cfb59af2] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [93681df4] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [93681df4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [6f3c3cb4] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [6f3c3cb4] Finished in 2.624 seconds with exit status 0 (successful).
+  INFO [caef485c] Running /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases as nadir@localhost
+ DEBUG [caef485c] Command: /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases
+  INFO [d62ad2d2] Finished in 0.049 seconds with exit status 0 (successful).
+ DEBUG [91f31b58] Running [ -f /var/www/html/current/REVISION ] as nadir@localhost
+ DEBUG [91f31b58] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [ca7c9b57] Finished in 0.045 seconds with exit status 1 (failed).
+ DEBUG [ecd2df84] Running [ -f /var/www/html/repo/HEAD ] as nadir@localhost
+ DEBUG [ecd2df84] Command: [ -f /var/www/html/repo/HEAD ]
+ DEBUG [029416ec] Finished in 0.050 seconds with exit status 1 (failed).
+ DEBUG [4c66fe9d] Running if test ! -d /var/www/html; then echo "Directory does not exist '/var/www/html'" 1>&2; false; fi as nadir@localhost
+ DEBUG [4c66fe9d] Command: if test ! -d /var/www/html; then echo "Directory does not exist '/var/www/html'" 1>&2; false; fi
+ DEBUG [6acfa2bf] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [fdf44232] Running /usr/bin/env git clone --mirror git@github.com:nfouka/dep.git /var/www/html/repo as nadir@localhost
+ DEBUG [fdf44232] Command: cd /var/www/html && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git clone --mirror git@github.com:nfouka/dep.git /var/www/html/repo )
+ DEBUG [8576815b] 	Clonage dans le dépôt nu '/var/www/html/repo'
+  INFO [8576815b] Finished in 8.190 seconds with exit status 0 (successful).
+ DEBUG [349a409e] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [349a409e] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [e3797a1d] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [e5e9a78f] Running /usr/bin/env git remote set-url origin git@github.com:nfouka/dep.git as nadir@localhost
+ DEBUG [e5e9a78f] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git remote set-url origin git@github.com:nfouka/dep.git )
+  INFO [6b349dab] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [1cf35ec9] Running /usr/bin/env git remote update --prune as nadir@localhost
+ DEBUG [1cf35ec9] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [adfba482] 	Récupération de origin
+  INFO [adfba482] Finished in 2.363 seconds with exit status 0 (successful).
+ DEBUG [54e90c4d] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [54e90c4d] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [1ee52aca] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [f78afe70] Running /usr/bin/env mkdir -p /var/www/html/releases/20180804141726 as nadir@localhost
+ DEBUG [f78afe70] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env mkdir -p /var/www/html/releases/20180804141726 )
+  INFO [29c10352] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [788f336a] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20180804141726 as nadir@localhost
+ DEBUG [788f336a] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20180804141726 )
+  INFO [769140f4] Finished in 0.078 seconds with exit status 0 (successful).
+ DEBUG [008c1be2] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [008c1be2] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [b9640050] Finished in 0.048 seconds with exit status 0 (successful).
+ DEBUG [c78316be] Running /usr/bin/env git rev-list --max-count=1 master as nadir@localhost
+ DEBUG [c78316be] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [b6531d42] 	7a6fa823596869b6890ef53fa07e954eed22b9c0
+ DEBUG [b6531d42] Finished in 0.053 seconds with exit status 0 (successful).
+ DEBUG [fbeecceb] Running if test ! -d /var/www/html/releases/20180804141726; then echo "Directory does not exist '/var/www/html/releases/20180804141726'" 1>&2; false; fi as nadir@localhost
+ DEBUG [fbeecceb] Command: if test ! -d /var/www/html/releases/20180804141726; then echo "Directory does not exist '/var/www/html/releases/20180804141726'" 1>&2; false; fi
+ DEBUG [b705aab2] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [9084c604] Running /usr/bin/env echo "7a6fa823596869b6890ef53fa07e954eed22b9c0" > REVISION as nadir@localhost
+ DEBUG [9084c604] Command: cd /var/www/html/releases/20180804141726 && /usr/bin/env echo "7a6fa823596869b6890ef53fa07e954eed22b9c0" > REVISION
+  INFO [799c09ce] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [d83cf473] Running /usr/bin/env ln -s /var/www/html/releases/20180804141726 /var/www/html/releases/current as nadir@localhost
+ DEBUG [d83cf473] Command: /usr/bin/env ln -s /var/www/html/releases/20180804141726 /var/www/html/releases/current
+  INFO [c5d65ab3] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [0a04aab9] Running /usr/bin/env mv /var/www/html/releases/current /var/www/html as nadir@localhost
+ DEBUG [0a04aab9] Command: /usr/bin/env mv /var/www/html/releases/current /var/www/html
+  INFO [c200b78b] Finished in 0.048 seconds with exit status 0 (successful).
+ DEBUG [2b9d8766] Running /usr/bin/env ls -x /var/www/html/releases as nadir@localhost
+ DEBUG [2b9d8766] Command: /usr/bin/env ls -x /var/www/html/releases
+ DEBUG [fbdfafff] 	20180804141726
+ DEBUG [fbdfafff] Finished in 0.047 seconds with exit status 0 (successful).
+ DEBUG [d6301795] Running if test ! -d /var/www/html/releases; then echo "Directory does not exist '/var/www/html/releases'" 1>&2; false; fi as nadir@localhost
+ DEBUG [d6301795] Command: if test ! -d /var/www/html/releases; then echo "Directory does not exist '/var/www/html/releases'" 1>&2; false; fi
+ DEBUG [46a0b9c5] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [73e9ac53] Running /usr/bin/env echo "Branch master (at 7a6fa823596869b6890ef53fa07e954eed22b9c0) deployed as release 20180804141726 by nadir" >> /var/www/html/revisions.log as nadir@localhost
+ DEBUG [73e9ac53] Command: cd /var/www/html/releases && /usr/bin/env echo "Branch master (at 7a6fa823596869b6890ef53fa07e954eed22b9c0) deployed as release 20180804141726 by nadir" >> /var/www/html/revisions.log
+  INFO [2b28fb20] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 16:18:56 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [701413ec] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [701413ec] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b15e348d] Finished in 0.188 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 100.0%
+  INFO [39c3a335] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh as nadir@localhost
+ DEBUG [39c3a335] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh
+  INFO [ceb2297d] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [64e19c7e] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [64e19c7e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [48fc06e1] 	7a6fa823596869b6890ef53fa07e954eed22b9c0	HEAD
+  INFO [48fc06e1] Finished in 2.326 seconds with exit status 0 (successful).
+  INFO [c974f510] Running /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases as nadir@localhost
+ DEBUG [c974f510] Command: /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases
+  INFO [f64a78f6] Finished in 0.045 seconds with exit status 0 (successful).
+ DEBUG [4958d634] Running [ -f /var/www/html/current/REVISION ] as nadir@localhost
+ DEBUG [4958d634] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [c995955a] Finished in 0.047 seconds with exit status 0 (successful).
+ DEBUG [4c940c57] Running /usr/bin/env cat /var/www/html/current/REVISION 2>/dev/null as nadir@localhost
+ DEBUG [4c940c57] Command: /usr/bin/env cat /var/www/html/current/REVISION 2>/dev/null
+ DEBUG [d5843854] 	7a6fa823596869b6890ef53fa07e954eed22b9c0
+ DEBUG [d5843854] Finished in 0.050 seconds with exit status 0 (successful).
+ DEBUG [a794bfb3] Running [ -f /var/www/html/repo/HEAD ] as nadir@localhost
+ DEBUG [a794bfb3] Command: [ -f /var/www/html/repo/HEAD ]
+ DEBUG [493ef8aa] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/html/repo
+ DEBUG [9d06daeb] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [9d06daeb] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [16619438] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [52b011a0] Running /usr/bin/env git remote set-url origin git@github.com:nfouka/dep.git as nadir@localhost
+ DEBUG [52b011a0] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git remote set-url origin git@github.com:nfouka/dep.git )
+  INFO [248953ba] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [d0c37198] Running /usr/bin/env git remote update --prune as nadir@localhost
+ DEBUG [d0c37198] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [35645a6d] 	Récupération de origin
+  INFO [35645a6d] Finished in 2.476 seconds with exit status 0 (successful).
+ DEBUG [fa7cf1ae] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [fa7cf1ae] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [bc1bd45e] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [df0cb32f] Running /usr/bin/env mkdir -p /var/www/html/releases/20180804141859 as nadir@localhost
+ DEBUG [df0cb32f] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env mkdir -p /var/www/html/releases/20180804141859 )
+  INFO [439f2437] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [eb31dd03] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20180804141859 as nadir@localhost
+ DEBUG [eb31dd03] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20180804141859 )
+  INFO [049d1d19] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [75f92abc] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [75f92abc] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [691f5844] Finished in 0.047 seconds with exit status 0 (successful).
+ DEBUG [53cff146] Running /usr/bin/env git rev-list --max-count=1 master as nadir@localhost
+ DEBUG [53cff146] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [f4f69183] 	7a6fa823596869b6890ef53fa07e954eed22b9c0
+ DEBUG [f4f69183] Finished in 0.056 seconds with exit status 0 (successful).
+ DEBUG [bf0983f4] Running if test ! -d /var/www/html/releases/20180804141859; then echo "Directory does not exist '/var/www/html/releases/20180804141859'" 1>&2; false; fi as nadir@localhost
+ DEBUG [bf0983f4] Command: if test ! -d /var/www/html/releases/20180804141859; then echo "Directory does not exist '/var/www/html/releases/20180804141859'" 1>&2; false; fi
+ DEBUG [34f37e54] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [72472e6c] Running /usr/bin/env echo "7a6fa823596869b6890ef53fa07e954eed22b9c0" > REVISION as nadir@localhost
+ DEBUG [72472e6c] Command: cd /var/www/html/releases/20180804141859 && /usr/bin/env echo "7a6fa823596869b6890ef53fa07e954eed22b9c0" > REVISION
+  INFO [dae787f1] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [024454b2] Running /usr/bin/env ln -s /var/www/html/releases/20180804141859 /var/www/html/releases/current as nadir@localhost
+ DEBUG [024454b2] Command: /usr/bin/env ln -s /var/www/html/releases/20180804141859 /var/www/html/releases/current
+  INFO [8e6dd4c0] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [0c365c29] Running /usr/bin/env mv /var/www/html/releases/current /var/www/html as nadir@localhost
+ DEBUG [0c365c29] Command: /usr/bin/env mv /var/www/html/releases/current /var/www/html
+  INFO [35672664] Finished in 0.047 seconds with exit status 0 (successful).
+ DEBUG [9a9fa0de] Running /usr/bin/env ls -x /var/www/html/releases as nadir@localhost
+ DEBUG [9a9fa0de] Command: /usr/bin/env ls -x /var/www/html/releases
+ DEBUG [cd4dc3e7] 	20180804141726	20180804141859
+ DEBUG [cd4dc3e7] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [e9dc6a88] Running if test ! -d /var/www/html/releases; then echo "Directory does not exist '/var/www/html/releases'" 1>&2; false; fi as nadir@localhost
+ DEBUG [e9dc6a88] Command: if test ! -d /var/www/html/releases; then echo "Directory does not exist '/var/www/html/releases'" 1>&2; false; fi
+ DEBUG [0e3cc083] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [a230514b] Running /usr/bin/env echo "Branch master (at 7a6fa823596869b6890ef53fa07e954eed22b9c0) deployed as release 20180804141859 by nadir" >> /var/www/html/revisions.log as nadir@localhost
+ DEBUG [a230514b] Command: cd /var/www/html/releases && /usr/bin/env echo "Branch master (at 7a6fa823596869b6890ef53fa07e954eed22b9c0) deployed as release 20180804141859 by nadir" >> /var/www/html/revisions.log
+  INFO [4812eb61] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 16:25:35 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [df82cf0e] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [df82cf0e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d49488c8] Finished in 0.188 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 100.0%
+  INFO [19273514] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh as nadir@localhost
+ DEBUG [19273514] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh
+  INFO [0d8ee975] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [d375c114] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [d375c114] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 16:26:56 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [19791903] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [19791903] Command: /usr/bin/env mkdir -p /tmp
+  INFO [cb5ff6d1] Finished in 0.185 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 100.0%
+  INFO [fcd43071] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh as nadir@localhost
+ DEBUG [fcd43071] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh
+  INFO [5081b75a] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [d70604b2] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [d70604b2] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
+ DEBUG [bc262947] 	69c937f40fa75890adacfedad483b9c194c259be	HEAD
+  INFO [bc262947] Finished in 2.448 seconds with exit status 0 (successful).
+  INFO [2acc472a] Running /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases as nadir@localhost
+ DEBUG [2acc472a] Command: /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases
+  INFO [95aac3b7] Finished in 0.045 seconds with exit status 0 (successful).
+ DEBUG [d0dc8b54] Running [ -f /var/www/html/current/REVISION ] as nadir@localhost
+ DEBUG [d0dc8b54] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [f81ed6ed] Finished in 0.046 seconds with exit status 0 (successful).
+ DEBUG [d812e551] Running /usr/bin/env cat /var/www/html/current/REVISION 2>/dev/null as nadir@localhost
+ DEBUG [d812e551] Command: /usr/bin/env cat /var/www/html/current/REVISION 2>/dev/null
+ DEBUG [3926c18e] 	7a6fa823596869b6890ef53fa07e954eed22b9c0
+ DEBUG [3926c18e] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [bc8b7992] Running [ -f /var/www/html/repo/HEAD ] as nadir@localhost
+ DEBUG [bc8b7992] Command: [ -f /var/www/html/repo/HEAD ]
+ DEBUG [44c4f2a3] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/html/repo
+ DEBUG [af95edb0] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [af95edb0] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [d546bdae] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [702b2923] Running /usr/bin/env git remote set-url origin git@github.com:nfouka/dep.git as nadir@localhost
+ DEBUG [702b2923] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git remote set-url origin git@github.com:nfouka/dep.git )
+  INFO [2076a8fd] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [f7d290e0] Running /usr/bin/env git remote update --prune as nadir@localhost
+ DEBUG [f7d290e0] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [5094bde4] 	Récupération de origin
+ DEBUG [5094bde4] 	Depuis github.com:nfouka/dep
+   7a6fa82..69c937f  master     -> master
+  INFO [5094bde4] Finished in 2.690 seconds with exit status 0 (successful).
+ DEBUG [772f6426] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [772f6426] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [3a0cfa82] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [10ce8215] Running /usr/bin/env mkdir -p /var/www/html/releases/20180804142659 as nadir@localhost
+ DEBUG [10ce8215] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env mkdir -p /var/www/html/releases/20180804142659 )
+  INFO [d8a7fae7] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [9d57ee5c] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20180804142659 as nadir@localhost
+ DEBUG [9d57ee5c] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20180804142659 )
+  INFO [b1319848] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [3ddb4fc6] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as nadir@localhost
+ DEBUG [3ddb4fc6] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [3d659b61] Finished in 0.047 seconds with exit status 0 (successful).
+ DEBUG [a0fcd944] Running /usr/bin/env git rev-list --max-count=1 master as nadir@localhost
+ DEBUG [a0fcd944] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [53b33edb] 	69c937f40fa75890adacfedad483b9c194c259be
+ DEBUG [53b33edb] Finished in 0.053 seconds with exit status 0 (successful).
+ DEBUG [007969e7] Running if test ! -d /var/www/html/releases/20180804142659; then echo "Directory does not exist '/var/www/html/releases/20180804142659'" 1>&2; false; fi as nadir@localhost
+ DEBUG [007969e7] Command: if test ! -d /var/www/html/releases/20180804142659; then echo "Directory does not exist '/var/www/html/releases/20180804142659'" 1>&2; false; fi
+ DEBUG [63fbbe87] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [571e0aa6] Running /usr/bin/env echo "69c937f40fa75890adacfedad483b9c194c259be" > REVISION as nadir@localhost
+ DEBUG [571e0aa6] Command: cd /var/www/html/releases/20180804142659 && /usr/bin/env echo "69c937f40fa75890adacfedad483b9c194c259be" > REVISION
+  INFO [2b9901b6] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [069b6cb3] Running /usr/bin/env ln -s /var/www/html/releases/20180804142659 /var/www/html/releases/current as nadir@localhost
+ DEBUG [069b6cb3] Command: /usr/bin/env ln -s /var/www/html/releases/20180804142659 /var/www/html/releases/current
+  INFO [dca81ece] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [2e5a68b8] Running /usr/bin/env mv /var/www/html/releases/current /var/www/html as nadir@localhost
+ DEBUG [2e5a68b8] Command: /usr/bin/env mv /var/www/html/releases/current /var/www/html
+  INFO [a8b0a2e0] Finished in 0.050 seconds with exit status 0 (successful).
+ DEBUG [d3e66187] Running /usr/bin/env ls -x /var/www/html/releases as nadir@localhost
+ DEBUG [d3e66187] Command: /usr/bin/env ls -x /var/www/html/releases
+ DEBUG [c55865cc] 	20180804141726	20180804141859	20180804142659
+ DEBUG [c55865cc] Finished in 0.050 seconds with exit status 0 (successful).
+ DEBUG [69f1dbce] Running if test ! -d /var/www/html/releases; then echo "Directory does not exist '/var/www/html/releases'" 1>&2; false; fi as nadir@localhost
+ DEBUG [69f1dbce] Command: if test ! -d /var/www/html/releases; then echo "Directory does not exist '/var/www/html/releases'" 1>&2; false; fi
+ DEBUG [830f7d14] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [5d3f4699] Running /usr/bin/env echo "Branch master (at 69c937f40fa75890adacfedad483b9c194c259be) deployed as release 20180804142659 by nadir" >> /var/www/html/revisions.log as nadir@localhost
+ DEBUG [5d3f4699] Command: cd /var/www/html/releases && /usr/bin/env echo "Branch master (at 69c937f40fa75890adacfedad483b9c194c259be) deployed as release 20180804142659 by nadir" >> /var/www/html/revisions.log
+  INFO [7d10f37a] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-08-04 16:27:32 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f75ba887] Running /usr/bin/env mkdir -p /tmp as nadir@localhost
+ DEBUG [f75ba887] Command: /usr/bin/env mkdir -p /tmp
+  INFO [0f16332c] Finished in 0.182 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-nadir.sh 100.0%
+  INFO [09e172ba] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh as nadir@localhost
+ DEBUG [09e172ba] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-nadir.sh
+  INFO [5397e38a] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [6cae4cac] Running /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD as nadir@localhost
+ DEBUG [6cae4cac] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-nadir.sh" ; /usr/bin/env git ls-remote git@github.com:nfouka/dep.git HEAD )
